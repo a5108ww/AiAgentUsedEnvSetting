@@ -1,0 +1,69 @@
+File Name：settings.json
+
+Content：
+
+{
+  "permissions": {
+    "allow": [
+      "Bash(*git status*)",
+      "Bash(*git log*)",
+      "Bash(*git diff*)",
+      "Bash(*git add*)",
+      "Bash(*git commit*)",
+      "Bash(*cd*)",
+      "Bash(*dir*)",
+      "Bash(*find*)",
+      "Bash(*ls*)"
+    ],
+    "deny": [
+      "Bash(*push*)",
+      "Bash(*reset*)",
+      "Bash(*rebase*)",
+      "Bash(*clean*)",
+      "Bash(*branch -D*)",
+      "Bash(*branch -d*)",
+      "Bash(*tag*)",
+      "Bash(*rm*)",
+      "Bash(*rmdir*)",
+      "Bash(*rd*)",
+      "Bash(*erase*)",
+      "Bash(*copy*)",
+      "Bash(*xcopy*)",
+      "Bash(*move*)",
+      "Bash(*ren*)",
+      "Bash(*rename*)",
+      "Bash(*mkdir*)",
+      "Bash(*md*)",
+      "Bash(*echo* >*)",
+      "Bash(*type* >*)",
+      "Bash(*attrib*)",
+      "Bash(*cacls*)",
+      "Bash(*icacls*)",
+      "Bash(*takeown*)",
+      "Bash(*chown*)",
+      "Bash(*chmod*)",
+      "Bash(*reg*)",
+      "Bash(*regedit*)",
+      "Bash(*powershell*)",
+      "Bash(*pwsh*)",
+      "Bash(*wmic*)",
+      "Bash(*taskkill*)",
+      "Bash(*sc*)",
+      "Bash(*net user*)",
+      "Bash(*net group*)",
+      "Bash(*format*)",
+      "Bash(*diskpart*)",
+      "Bash(*chkdsk*)",
+      "Bash(*defrag*)",
+      "Bash(*cipher*)",
+      "Bash(*compact*)",
+      "Bash(*tar*)",
+      "Bash(*zip*)",
+      "Bash(*rar*)",
+      "Bash(*7z*)",
+      "Bash(*curl* -o*)",
+      "Bash(*wget*)",
+      "Bash(*bitsadmin*)"
+    ]
+  }
+}
